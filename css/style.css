@@ -1,0 +1,73 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+
+#settings {
+  align-self: center;
+}
+
+.Example{
+width: 100px;
+height: 100px;
+overflow: hidden;
+}
+
+.Example .img {
+  width: 100%;
+  height: 100%;
+}
+.Example .img:hover{
+  width: 75%;
+  height: 75%;
+}
+.Example .center{
+  padding: 50px;
+}
+.box{
+  display: inline-block;
+  background: pink;
+  width: 200px;
+  height: 200px;
+  transition: transform 300ms ease-in-out;
+  pointer-events: none;
+}
+#shop{
+  display: block;
+  border: 1px;
+  height: auto;
+  weight: auto;
+  margin: auto;
+}
+#shop p{
+  display: none;
+}
+#shop p:hover{
+  display: block;
+}
+.side-nav a:hover {
+color: red;
+}
+
